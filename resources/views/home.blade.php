@@ -14,7 +14,12 @@
                         </div>
                     @endif
 
+                    @auth
+                        <p>Welcome {{ auth()->user()->name }}</p>
+                    @endauth
+
                     {{ __('You are logged in!') }}
+
                 </div>
             </div>
         </div>
