@@ -20,6 +20,10 @@
 
                     {{ __('You are logged in!') }}
 
+                    <div>
+                    <a href="/posts/create">Create post</a>
+                    </div>
+
                 </div>
             </div>
         </div>
